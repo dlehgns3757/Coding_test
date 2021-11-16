@@ -3,6 +3,18 @@
 ex) 
 from collections import Counter
 
-Counter(participant) # {"leo": 1, "kiki": 1, "eden": 1}
+list1 = ["leo", "kiki", "eden"]
+list2 = ["eden", "kiki"]
+Counter(list) # {"leo": 1, "kiki": 1, "eden": 1}
+
+list(list1 - list2) # "leo"
+
+
+2. startswith: 문자열 내의 접두사 검사, 결과를 불린으로 리턴
+
+ex)
+text = "leedohoon"
+
+text.startswith("lee") # True
 
 
